@@ -1,8 +1,10 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url('ion-icons/font/css/ion-icons-bootstrap.min.css');
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 
 a, .btn-link {
     color: #0366d6;
@@ -31,9 +33,12 @@ app {
 }
 
     .main .top-row {
-        background-color: #f7f7f7;
+        background-color: white;
         border-bottom: 1px solid #d6d5d5;
         justify-content: flex-end;
+        background: rgb(20,2,47);
+        background: linear-gradient(273deg, rgba(20,2,47,0.9570203081232493) 0%, rgba(87,2,175,1) 100%);
+        color: whitesmoke;
     }
 
         .main .top-row > a, .main .top-row .btn-link {
@@ -41,13 +46,14 @@ app {
             margin-left: 1.5rem;
         }
 
-.main .top-row a:first-child {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+        .main .top-row a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background: rgb(4,36,36);
+    background: linear-gradient(0deg, rgba(4,36,36,1) 0%, rgba(87,2,175,1) 100%);
 }
 
     .sidebar .top-row {
@@ -88,13 +94,15 @@ app {
         }
 
             .sidebar .nav-item a.active {
-                background-color: rgba(255,255,255,0.25);
+                background-color: #6f22ef;
                 color: white;
             }
 
             .sidebar .nav-item a:hover {
-                background-color: rgba(255,255,255,0.1);
-                color: white;
+                background-color: white;
+                color: rebeccapurple;
+                border:solid;
+                border-color:mediumpurple;
             }
 
 .content {
@@ -129,16 +137,18 @@ app {
     z-index: 1000;
 }
 
-#blazor-error-ui .dismiss {
-    cursor: pointer;
-    position: absolute;
-    right: 0.75rem;
-    top: 0.5rem;
-}
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
 
 @media (max-width: 767.98px) {
     .main .top-row:not(.auth) {
         display: none;
+        color: gray;
+        background-color: rebeccapurple;
     }
 
     .main .top-row.auth {
@@ -180,4 +190,5 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+
 }
