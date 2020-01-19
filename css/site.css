@@ -4,16 +4,42 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.ButtonPerso {
+    box-shadow: inset 0px 1px 2px -2px #d9bfeb;
+    background: linear-gradient(to bottom, #9878b3 5%, #12027a 100%);
+    background-color: #9878b3;
+    border-radius: 7px;
+    border: 1px solid #5e176b;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 9px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7b2fbd;
+}
 
+    .ButtonPerso:hover {
+        background: linear-gradient(to bottom, #12027a 5%, #9878b3 100%);
+        background-color: #12027a;
+    }
+
+    .ButtonPerso:active {
+        position: relative;
+        top: 1px;
+    }
 
 a, .btn-link {
-    color: #0366d6;
+    color: red;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
+    color: whitesmoke;
+    background-color: #4c0bb7;
     border-color: #1861ac;
+
 }
 
 app {
