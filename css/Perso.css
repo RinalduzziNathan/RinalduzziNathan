@@ -1,7 +1,16 @@
-﻿.BackgroundMail {
+﻿
+
+.BackgroundMail {
     background-image: linear-gradient(to right, #52719f, #4462a6, #454fa8, #5436a4, #690098);
     color:aliceblue;
+    text-align:center;
 }
+.BackgroundError {
+    background-image: linear-gradient(to right, #a500d3, #d600a0, #ea006c, #ea003a, #da0000);
+    color: aliceblue;
+    text-align: center;
+}
+
 
 .topnav {
     overflow: hidden;
