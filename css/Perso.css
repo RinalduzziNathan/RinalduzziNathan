@@ -10,7 +10,15 @@
     color: aliceblue;
     text-align: center;
 }
-
+.BackgroundHoover {
+    background-image: linear-gradient(to right, #dfc9e3, #c19acd, #9f6eb8, #7b42a5, #501392);
+    color: aliceblue;
+    text-align: center;
+}
+.ConsolasFont{
+    color:white;
+    font-family:Consolas;
+}
 
 .topnav {
     overflow: hidden;
